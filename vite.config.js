@@ -14,10 +14,10 @@ export default defineConfig(({ mode }) => {
         fileName: 'stimulus-clipboard'
       },
       rollupOptions: {
-        external: ['@hotwired/stimulus'],
+        external: ['stimulus'],
         output: {
           globals: {
-            '@hotwired/stimulus': 'Stimulus'
+            'stimulus': 'Stimulus'
           }
         }
       }
